@@ -1,0 +1,6 @@
+#!/bin/bash
+apt update
+apt upgrade
+xargs sudo apt-get install < pkglist
+
+
